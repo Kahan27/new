@@ -1,0 +1,48 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title> combinator selector</title>
+<style>
+div p
+{
+font-size:12pt;
+color:blue;
+}
+div>p
+{
+font-size:20pt;
+color:red;
+}
+div span p
+{
+font-size:40pt;
+color:green;
+}
+div+p
+{
+font-size:50pt;
+color:navy;
+text-decoration:underline;
+}
+div~p
+{
+font-size:30pt;
+color:yellow;
+}
+
+
+</style>
+</head>
+<body>
+<div>
+<p> hello </p>
+<p> this is my text </p>
+<p> kahan </p>
+<span><p>my surname is Gotecha</p></span>
+<h1>Google</h1>
+</div>
+<p> amay</p>
+<p>this is my text</p>
+<p> this is my text</p>
+</body>
+</html>
